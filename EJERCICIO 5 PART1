@@ -1,0 +1,10 @@
+#Solicitud de cadenna
+cadena = input("Ingrese una cadena mayor que 7 caracteres: ")
+#Calcula el tamaño de la cadena 
+longitud = len(cadena)
+#Calcula la posición de en medio de la cadena y se realiza con 2 para que sea entero
+mitad = longitud // 2
+#Extración de los tres caracteres del centro
+resultado = cadena[mitad-1:mitad+2]
+#Mostrar resultado
+print("Resultado:", resultado)

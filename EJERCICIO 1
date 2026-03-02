@@ -1,0 +1,9 @@
+# Solicitud de números al usuario
+num1 = input('Ingresa el primer número: ')
+num2 = input('Ingresa el segundo número: ')
+
+# Sumatoria
+sum = float(num1) + float(num2)
+
+# Mostrar resultado
+print(f"La sumatoria de {num1} y de {num2} es: {sum}")

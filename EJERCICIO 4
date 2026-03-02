@@ -1,0 +1,15 @@
+# Solicitud de los números
+entrada = input("Introduce números separados por comas: ")
+
+# Dividir por comas
+lista_numeros = entrada.split(',')
+
+# Conversion de los números a enteros
+lista_numeros = [int(x.strip()) for x in lista_numeros]
+
+# Convertir la Lista a una Tupla
+tupla_numeros = tuple(lista_numeros)
+
+# Mostrar resultados
+print("Lista:", lista_numeros)
+print("Tupla:", tupla_numeros)
