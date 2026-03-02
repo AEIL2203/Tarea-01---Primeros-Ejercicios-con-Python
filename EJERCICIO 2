@@ -1,5 +1,5 @@
-#Genera una secuencia desde el 1 hasta el 100.
+# Genera una secuencia desde el 1 hasta el 100.
 for numero in range(1, 101):
-    #Si el residuo es igual a cero impreme el número
+# Si el residuo es igual a cero impreme el número
     if numero % 7 == 0:
         print(numero)

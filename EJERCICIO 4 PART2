@@ -1,15 +1,15 @@
-# Solicitud al usuario que ingrese una lista
+#Solicitud al usuario que ingrese una lista
 lista = eval(input("Ingrese una lista con número par de elementos: "))
 
-# calcular la mitad del tamaño de la lista
+#Calcular la mitad del tamaño de la lista
 mitad = len(lista) // 2
 
-# Se calcula la primera mitad desde el inicio hasta la mitad
+#Se calcula la primera mitad desde el inicio hasta la mitad
 parte1 = lista[:mitad]
 
-# Se calcula la segunda mitad desde la mitad hasta el final
+#Se calcula la segunda mitad desde la mitad hasta el final
 parte2 = lista[mitad:]
 
-# Mostrar resultado
+#Mostrar resultado
 print("Primera mitad:", parte1)
 print("Segunda mitad:", parte2)
